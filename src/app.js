@@ -1,22 +1,28 @@
 import React, {Component} from 'react';
 import {SafeAreaView} from 'react-native';
-import firebase from 'react-native-firebase';
+import auth from '@react-native-firebase/auth';
+import firebase from '@react-native-firebase/app';
 
 import {setNavigator} from './navigation/navigationService';
 import Navigator from './navigation';
 
 export default class AppComponent extends Component {
   componentDidMount() {
-    //console.log(firebase, firebase.auth());
-    firebase
+    console.log(firebase);
+    /*firebase
+      .initializeApp()
+      .then(console.log)
+      .catch(console.log);*/
+    /*firebase
       .messaging()
       .getToken()
       .then(fcmToken => {
         console.log(fcmToken);
       });
-    setNavigator(this.navigator);
+    setNavigator(this.navigator);*/
 
-    firebase
+    /*firebase
+      .initializeApp()
       .auth()
       .signInWithEmailAndPassword('test@test.com', 'password')
       .then(console.log)
@@ -24,7 +30,7 @@ export default class AppComponent extends Component {
         // Handle Errors here.
         console.log(error);
         // ...
-      });
+      });*/
   }
 
   render() {
