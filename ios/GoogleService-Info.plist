@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>448981348415-htffq8sh25kmqej5gd7sj0t1thigph8j.apps.googleusercontent.com</string>
+	<string>448981348415-hl3kuepv336mdf2lj2q1d0er26cderij.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.448981348415-htffq8sh25kmqej5gd7sj0t1thigph8j</string>
+	<string>com.googleusercontent.apps.448981348415-hl3kuepv336mdf2lj2q1d0er26cderij</string>
 	<key>API_KEY</key>
 	<string>AIzaSyB983DdF-9Z00Rlat4dwbpkPTv260d82c0</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>org.reactjs.native.example.ApiSage</string>
+	<string>org.reactjs.native.example.fireTest</string>
 	<key>PROJECT_ID</key>
 	<string>fir-94a82</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,7 +29,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:448981348415:ios:1e4178d7cfaa239a58088a</string>
+	<string>1:448981348415:ios:b4f3da1a272243a058088a</string>
 	<key>DATABASE_URL</key>
 	<string>https://fir-94a82.firebaseio.com</string>
 </dict>

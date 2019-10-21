@@ -20,7 +20,7 @@
 		3488DB3DEB71DD69994996B5 /* libPods-fireTestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D6AE6A18F3DF9794932E5C4 /* libPods-fireTestTests.a */; };
 		88FE92D5F2224B7177AD124F /* libPods-fireTest-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0240952CC7522973F2FC9BB8 /* libPods-fireTest-tvOS.a */; };
 		9DBFC3D30183EF831F60B020 /* libPods-fireTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96622B4E4465601933C6665A /* libPods-fireTest.a */; };
-		E970A37C235DA6C500681E7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E970A37B235DA6C500681E7E /* GoogleService-Info.plist */; };
+		E96800B9235DB6A800AF7ABC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E96800B8235DB6A800AF7ABC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +65,7 @@
 		B63301456744C04DB736DD28 /* Pods-fireTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireTestTests.debug.xcconfig"; path = "Target Support Files/Pods-fireTestTests/Pods-fireTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBB1881613C4CBFFC0891CA3 /* Pods-fireTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireTest.debug.xcconfig"; path = "Target Support Files/Pods-fireTest/Pods-fireTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CF745E268D7C7812361F6D2F /* Pods-fireTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireTestTests.release.xcconfig"; path = "Target Support Files/Pods-fireTestTests/Pods-fireTestTests.release.xcconfig"; sourceTree = "<group>"; };
-		E970A37B235DA6C500681E7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E96800B8235DB6A800AF7ABC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		EFABB25D49660E4942F7C543 /* Pods-fireTest-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fireTest-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-fireTest-tvOSTests/Pods-fireTest-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,7 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				E970A37B235DA6C500681E7E /* GoogleService-Info.plist */,
+				E96800B8235DB6A800AF7ABC /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* fireTest */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* fireTestTests */,
@@ -341,7 +341,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				E970A37C235DA6C500681E7E /* GoogleService-Info.plist in Resources */,
+				E96800B9235DB6A800AF7ABC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
