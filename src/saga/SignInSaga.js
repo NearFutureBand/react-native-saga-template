@@ -7,9 +7,7 @@ import routes from 'src/navigation/routes';
 import map from 'src/actions/map';
 
 function* signInSuccess(action) {
-  if (action.response.data.action) {
-    yield call(map[action.response.data.action]);
-  }
+  yield call(navigate, routes.app);
 }
 
 function* signIn({ payload: { email, password } }) {
@@ -21,7 +19,7 @@ function* signIn({ payload: { email, password } }) {
       payload: {
         email,
         password,
-      }
+      },
     });
   } catch (err) {
     console.log(err);
@@ -46,9 +44,10 @@ function* logUserOut() {
 const loginSaga = function* loginSaga() {
   yield all([
     takeEvery([actions.signInStart], signIn),
-    takeEvery([actions.signInSuccess], signInSuccess)
+    takeEvery([actions.signInSuccess], signInSuccess),
     /*takeEvery([actions.signupSuccess], signupSuccess),
     takeEvery([actions.logUserOut], logUserOut),*/
+    ,
   ]);
 };
 

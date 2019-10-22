@@ -1,8 +1,8 @@
 import React from 'react';
-import {createSwitchNavigator, createAppContainer} from 'react-navigation';
+import { createSwitchNavigator, createAppContainer } from 'react-navigation';
 
-import {createStackNavigator} from 'react-navigation-stack';
-import {createBottomTabNavigator} from 'react-navigation-tabs';
+import { createStackNavigator } from 'react-navigation-stack';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
 import routes from './routes';
 
@@ -87,7 +87,7 @@ const Stack2 = createStackNavigator(
     },
     [routes.screen3]: {
       screen: Screen3,
-      navigationOptions: ({navigation}) => {
+      navigationOptions: ({ navigation }) => {
         return {
           title: navigation.getParam('name'),
           headerBackTitle: null,
@@ -141,7 +141,7 @@ const Stack2 = createStackNavigator(
     defaultNavigationOptions: {
       headerBackTitle: null,
     },
-  },
+  }
 );
 
 const App = createBottomTabNavigator(
@@ -203,7 +203,7 @@ const App = createBottomTabNavigator(
         color: 'black',
       },
     },
-  },
+  }
 );
 
 const AuthAppSwitch = createSwitchNavigator(
@@ -214,7 +214,7 @@ const AuthAppSwitch = createSwitchNavigator(
   },
   {
     initialRouteName: 'Auth',
-  },
+  }
 );
 
 export default createAppContainer(AuthAppSwitch);
