@@ -5,6 +5,10 @@ import { setNavigator } from './navigation/navigationService';
 import Navigator from './navigation';
 
 export default class AppComponent extends Component {
+  componentDidMount() {
+    setNavigator(this.navigator);
+  }
+
   render() {
     return (
       <SafeAreaView style={{ flex: 1 }}>
